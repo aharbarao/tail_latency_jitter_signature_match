@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aharbarao-embodiedalgo_jd108"
+name = "aharbarao-tail_latency_jitter_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别具身智能算法工程师·尾延迟抖动与首 token 时间的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://aharbarao.github.io"
-Repository = "https://github.com/aharbarao/embodiedalgo_jd108"
-Issues = "https://github.com/aharbarao/embodiedalgo_jd108/issues"
+Repository = "https://github.com/aharbarao/tail_latency_jitter_signature_match"
+Issues = "https://github.com/aharbarao/tail_latency_jitter_signature_match/issues"
 
 [project.scripts]
-embodiedalgo_jd108 = "embodiedalgo_jd108:main"
+tail_latency_jitter_signature_match = "tail_latency_jitter_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["embodiedalgo_jd108"]
+py-modules = ["tail_latency_jitter_signature_match"]
